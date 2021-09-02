@@ -1,0 +1,32 @@
+html{
+    background: rgb(138, 190, 104);
+}
+.main{
+    max-width: 450px;
+    margin: 50px auto;
+    background: rgb(243, 242, 239);
+    box-shadow: 10px 10px 0 rgb(117, 115, 108);
+    border-radius: 10px;
+    
+}
+.item{
+    display: flex;
+    flex: 1;
+    border-bottom: 1px solid rgb(138, 190, 104);
+}
+.item:last-child{
+    border-bottom: 0px;
+}
+input[type='checkbox']{
+    margin: 20px;
+
+}
+p{
+    margin: 0;
+    padding: 20px;
+    border-left: 1px solid lawngreen;
+    font-family: Helvetica;
+}
+input:checked+p{
+    text-decoration: line-through;
+}
